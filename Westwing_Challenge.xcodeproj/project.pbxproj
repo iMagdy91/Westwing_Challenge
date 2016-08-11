@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		79063B0D1D5CE87200874043 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79063B0C1D5CE87200874043 /* AppDelegate.swift */; };
-		79063B0F1D5CE87200874043 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79063B0E1D5CE87200874043 /* ViewController.swift */; };
 		79063B121D5CE87200874043 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79063B101D5CE87200874043 /* Main.storyboard */; };
 		79063B141D5CE87200874043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79063B131D5CE87200874043 /* Assets.xcassets */; };
 		79063B171D5CE87200874043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79063B151D5CE87200874043 /* LaunchScreen.storyboard */; };
 		79063B221D5CE87200874043 /* Westwing_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79063B211D5CE87200874043 /* Westwing_ChallengeTests.swift */; };
+		79063B301D5CE93900874043 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79063B2F1D5CE93900874043 /* BaseViewController.swift */; };
+		79063B321D5CE95100874043 /* MainListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79063B311D5CE95100874043 /* MainListViewController.swift */; };
+		79063B351D5CEA0A00874043 /* MainListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79063B341D5CEA0A00874043 /* MainListTableViewCell.swift */; };
+		79063B381D5CEBF000874043 /* MainListStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79063B371D5CEBF000874043 /* MainListStore.swift */; };
+		79063B3B1D5CEC5F00874043 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79063B3A1D5CEC5F00874043 /* NetworkManager.swift */; };
+		79063B3D1D5CEC7500874043 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79063B3C1D5CEC7500874043 /* NetworkConstants.swift */; };
+		79063B401D5CECA400874043 /* MainListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79063B3F1D5CECA400874043 /* MainListModel.swift */; };
+		79063B431D5CFD7900874043 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79063B421D5CFD7900874043 /* GlobalConstants.swift */; };
+		AFD25102ACAD898F16508E85 /* Pods_Westwing_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E12F48215992C564746CD8F /* Pods_Westwing_Challenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B0A605FE67E157111EF48AF /* Pods-Westwing_Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Westwing_Challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-Westwing_Challenge/Pods-Westwing_Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		6A68A1510BF52F585D3874F1 /* Pods-Westwing_Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Westwing_Challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Westwing_Challenge/Pods-Westwing_Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		6E12F48215992C564746CD8F /* Pods_Westwing_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Westwing_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79063B091D5CE87100874043 /* Westwing_Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Westwing_Challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79063B0C1D5CE87200874043 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		79063B0E1D5CE87200874043 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		79063B111D5CE87200874043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79063B131D5CE87200874043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79063B161D5CE87200874043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +46,14 @@
 		79063B1D1D5CE87200874043 /* Westwing_ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Westwing_ChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79063B211D5CE87200874043 /* Westwing_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Westwing_ChallengeTests.swift; sourceTree = "<group>"; };
 		79063B231D5CE87200874043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79063B2F1D5CE93900874043 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		79063B311D5CE95100874043 /* MainListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainListViewController.swift; sourceTree = "<group>"; };
+		79063B341D5CEA0A00874043 /* MainListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainListTableViewCell.swift; sourceTree = "<group>"; };
+		79063B371D5CEBF000874043 /* MainListStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainListStore.swift; sourceTree = "<group>"; };
+		79063B3A1D5CEC5F00874043 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		79063B3C1D5CEC7500874043 /* NetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		79063B3F1D5CECA400874043 /* MainListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainListModel.swift; sourceTree = "<group>"; };
+		79063B421D5CFD7900874043 /* GlobalConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFD25102ACAD898F16508E85 /* Pods_Westwing_Challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +81,8 @@
 				79063B0B1D5CE87200874043 /* Westwing_Challenge */,
 				79063B201D5CE87200874043 /* Westwing_ChallengeTests */,
 				79063B0A1D5CE87100874043 /* Products */,
+				BF4B56F8ADD6CC26139F8A65 /* Pods */,
+				8A06B1848814B170A8D2A2AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +98,11 @@
 		79063B0B1D5CE87200874043 /* Westwing_Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				79063B411D5CFD6B00874043 /* Common Layer */,
+				79063B391D5CEC0400874043 /* Network Layer */,
+				79063B361D5CEBD600874043 /* Business Layer */,
+				79063B2C1D5CE90D00874043 /* Presentation Layer */,
 				79063B0C1D5CE87200874043 /* AppDelegate.swift */,
-				79063B0E1D5CE87200874043 /* ViewController.swift */,
-				79063B101D5CE87200874043 /* Main.storyboard */,
 				79063B131D5CE87200874043 /* Assets.xcassets */,
 				79063B151D5CE87200874043 /* LaunchScreen.storyboard */,
 				79063B181D5CE87200874043 /* Info.plist */,
@@ -96,6 +119,92 @@
 			path = Westwing_ChallengeTests;
 			sourceTree = "<group>";
 		};
+		79063B2C1D5CE90D00874043 /* Presentation Layer */ = {
+			isa = PBXGroup;
+			children = (
+				79063B331D5CE9E100874043 /* Custom Views */,
+				79063B2E1D5CE92000874043 /* View Controllers */,
+				79063B2D1D5CE91500874043 /* Storyboards */,
+			);
+			name = "Presentation Layer";
+			sourceTree = "<group>";
+		};
+		79063B2D1D5CE91500874043 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				79063B101D5CE87200874043 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		79063B2E1D5CE92000874043 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				79063B2F1D5CE93900874043 /* BaseViewController.swift */,
+				79063B311D5CE95100874043 /* MainListViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		79063B331D5CE9E100874043 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				79063B341D5CEA0A00874043 /* MainListTableViewCell.swift */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		79063B361D5CEBD600874043 /* Business Layer */ = {
+			isa = PBXGroup;
+			children = (
+				79063B371D5CEBF000874043 /* MainListStore.swift */,
+			);
+			name = "Business Layer";
+			sourceTree = "<group>";
+		};
+		79063B391D5CEC0400874043 /* Network Layer */ = {
+			isa = PBXGroup;
+			children = (
+				79063B3E1D5CEC8A00874043 /* DTOs */,
+				79063B3A1D5CEC5F00874043 /* NetworkManager.swift */,
+				79063B3C1D5CEC7500874043 /* NetworkConstants.swift */,
+			);
+			name = "Network Layer";
+			sourceTree = "<group>";
+		};
+		79063B3E1D5CEC8A00874043 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				79063B3F1D5CECA400874043 /* MainListModel.swift */,
+			);
+			name = DTOs;
+			sourceTree = "<group>";
+		};
+		79063B411D5CFD6B00874043 /* Common Layer */ = {
+			isa = PBXGroup;
+			children = (
+				79063B421D5CFD7900874043 /* GlobalConstants.swift */,
+			);
+			name = "Common Layer";
+			sourceTree = "<group>";
+		};
+		8A06B1848814B170A8D2A2AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E12F48215992C564746CD8F /* Pods_Westwing_Challenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF4B56F8ADD6CC26139F8A65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A68A1510BF52F585D3874F1 /* Pods-Westwing_Challenge.debug.xcconfig */,
+				5B0A605FE67E157111EF48AF /* Pods-Westwing_Challenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79063B261D5CE87200874043 /* Build configuration list for PBXNativeTarget "Westwing_Challenge" */;
 			buildPhases = (
+				0B80DE9ADCB98A86932E6C0A /* [CP] Check Pods Manifest.lock */,
 				79063B051D5CE87100874043 /* Sources */,
 				79063B061D5CE87100874043 /* Frameworks */,
 				79063B071D5CE87100874043 /* Resources */,
+				8794676BC39003BBD78828FE /* [CP] Embed Pods Frameworks */,
+				D94E79D2318A1A08F8BAF2AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,13 +304,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B80DE9ADCB98A86932E6C0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8794676BC39003BBD78828FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Westwing_Challenge/Pods-Westwing_Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D94E79D2318A1A08F8BAF2AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Westwing_Challenge/Pods-Westwing_Challenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		79063B051D5CE87100874043 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79063B0F1D5CE87200874043 /* ViewController.swift in Sources */,
+				79063B401D5CECA400874043 /* MainListModel.swift in Sources */,
+				79063B431D5CFD7900874043 /* GlobalConstants.swift in Sources */,
+				79063B3D1D5CEC7500874043 /* NetworkConstants.swift in Sources */,
+				79063B3B1D5CEC5F00874043 /* NetworkManager.swift in Sources */,
+				79063B321D5CE95100874043 /* MainListViewController.swift in Sources */,
 				79063B0D1D5CE87200874043 /* AppDelegate.swift in Sources */,
+				79063B351D5CEA0A00874043 /* MainListTableViewCell.swift in Sources */,
+				79063B381D5CEBF000874043 /* MainListStore.swift in Sources */,
+				79063B301D5CE93900874043 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,9 +494,11 @@
 		};
 		79063B271D5CE87200874043 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A68A1510BF52F585D3874F1 /* Pods-Westwing_Challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Westwing_Challenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.magdy.Westwing-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -338,9 +507,11 @@
 		};
 		79063B281D5CE87200874043 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0A605FE67E157111EF48AF /* Pods-Westwing_Challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Westwing_Challenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.magdy.Westwing-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -390,6 +561,7 @@
 				79063B281D5CE87200874043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79063B291D5CE87200874043 /* Build configuration list for PBXNativeTarget "Westwing_ChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +570,7 @@
 				79063B2B1D5CE87200874043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
