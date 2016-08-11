@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79063B0D1D5CE87200874043 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79063B0C1D5CE87200874043 /* AppDelegate.swift */; };
+		79063B0F1D5CE87200874043 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79063B0E1D5CE87200874043 /* ViewController.swift */; };
+		79063B121D5CE87200874043 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79063B101D5CE87200874043 /* Main.storyboard */; };
+		79063B141D5CE87200874043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79063B131D5CE87200874043 /* Assets.xcassets */; };
+		79063B171D5CE87200874043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79063B151D5CE87200874043 /* LaunchScreen.storyboard */; };
+		79063B221D5CE87200874043 /* Westwing_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79063B211D5CE87200874043 /* Westwing_ChallengeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79063B1E1D5CE87200874043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79063B011D5CE87100874043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79063B081D5CE87100874043;
+			remoteInfo = Westwing_Challenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79063B091D5CE87100874043 /* Westwing_Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Westwing_Challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79063B0C1D5CE87200874043 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79063B0E1D5CE87200874043 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79063B111D5CE87200874043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79063B131D5CE87200874043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79063B161D5CE87200874043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79063B181D5CE87200874043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79063B1D1D5CE87200874043 /* Westwing_ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Westwing_ChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79063B211D5CE87200874043 /* Westwing_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Westwing_ChallengeTests.swift; sourceTree = "<group>"; };
+		79063B231D5CE87200874043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79063B061D5CE87100874043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79063B1A1D5CE87200874043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79063B001D5CE87100874043 = {
+			isa = PBXGroup;
+			children = (
+				79063B0B1D5CE87200874043 /* Westwing_Challenge */,
+				79063B201D5CE87200874043 /* Westwing_ChallengeTests */,
+				79063B0A1D5CE87100874043 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79063B0A1D5CE87100874043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79063B091D5CE87100874043 /* Westwing_Challenge.app */,
+				79063B1D1D5CE87200874043 /* Westwing_ChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79063B0B1D5CE87200874043 /* Westwing_Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				79063B0C1D5CE87200874043 /* AppDelegate.swift */,
+				79063B0E1D5CE87200874043 /* ViewController.swift */,
+				79063B101D5CE87200874043 /* Main.storyboard */,
+				79063B131D5CE87200874043 /* Assets.xcassets */,
+				79063B151D5CE87200874043 /* LaunchScreen.storyboard */,
+				79063B181D5CE87200874043 /* Info.plist */,
+			);
+			path = Westwing_Challenge;
+			sourceTree = "<group>";
+		};
+		79063B201D5CE87200874043 /* Westwing_ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				79063B211D5CE87200874043 /* Westwing_ChallengeTests.swift */,
+				79063B231D5CE87200874043 /* Info.plist */,
+			);
+			path = Westwing_ChallengeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79063B081D5CE87100874043 /* Westwing_Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79063B261D5CE87200874043 /* Build configuration list for PBXNativeTarget "Westwing_Challenge" */;
+			buildPhases = (
+				79063B051D5CE87100874043 /* Sources */,
+				79063B061D5CE87100874043 /* Frameworks */,
+				79063B071D5CE87100874043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Westwing_Challenge;
+			productName = Westwing_Challenge;
+			productReference = 79063B091D5CE87100874043 /* Westwing_Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79063B1C1D5CE87200874043 /* Westwing_ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79063B291D5CE87200874043 /* Build configuration list for PBXNativeTarget "Westwing_ChallengeTests" */;
+			buildPhases = (
+				79063B191D5CE87200874043 /* Sources */,
+				79063B1A1D5CE87200874043 /* Frameworks */,
+				79063B1B1D5CE87200874043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79063B1F1D5CE87200874043 /* PBXTargetDependency */,
+			);
+			name = Westwing_ChallengeTests;
+			productName = Westwing_ChallengeTests;
+			productReference = 79063B1D1D5CE87200874043 /* Westwing_ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79063B011D5CE87100874043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mohamed Magdy";
+				TargetAttributes = {
+					79063B081D5CE87100874043 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					79063B1C1D5CE87200874043 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 79063B081D5CE87100874043;
+					};
+				};
+			};
+			buildConfigurationList = 79063B041D5CE87100874043 /* Build configuration list for PBXProject "Westwing_Challenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79063B001D5CE87100874043;
+			productRefGroup = 79063B0A1D5CE87100874043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79063B081D5CE87100874043 /* Westwing_Challenge */,
+				79063B1C1D5CE87200874043 /* Westwing_ChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79063B071D5CE87100874043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79063B171D5CE87200874043 /* LaunchScreen.storyboard in Resources */,
+				79063B141D5CE87200874043 /* Assets.xcassets in Resources */,
+				79063B121D5CE87200874043 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79063B1B1D5CE87200874043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79063B051D5CE87100874043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79063B0F1D5CE87200874043 /* ViewController.swift in Sources */,
+				79063B0D1D5CE87200874043 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79063B191D5CE87200874043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79063B221D5CE87200874043 /* Westwing_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79063B1F1D5CE87200874043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79063B081D5CE87100874043 /* Westwing_Challenge */;
+			targetProxy = 79063B1E1D5CE87200874043 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79063B101D5CE87200874043 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79063B111D5CE87200874043 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79063B151D5CE87200874043 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79063B161D5CE87200874043 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79063B241D5CE87200874043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79063B251D5CE87200874043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79063B271D5CE87200874043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Westwing_Challenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magdy.Westwing-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79063B281D5CE87200874043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Westwing_Challenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magdy.Westwing-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79063B2A1D5CE87200874043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Westwing_ChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magdy.Westwing-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Westwing_Challenge.app/Westwing_Challenge";
+			};
+			name = Debug;
+		};
+		79063B2B1D5CE87200874043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Westwing_ChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magdy.Westwing-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Westwing_Challenge.app/Westwing_Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79063B041D5CE87100874043 /* Build configuration list for PBXProject "Westwing_Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79063B241D5CE87200874043 /* Debug */,
+				79063B251D5CE87200874043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79063B261D5CE87200874043 /* Build configuration list for PBXNativeTarget "Westwing_Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79063B271D5CE87200874043 /* Debug */,
+				79063B281D5CE87200874043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79063B291D5CE87200874043 /* Build configuration list for PBXNativeTarget "Westwing_ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79063B2A1D5CE87200874043 /* Debug */,
+				79063B2B1D5CE87200874043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79063B011D5CE87100874043 /* Project object */;
+}
