@@ -11,3 +11,7 @@ import Foundation
 struct TableViewCellID {
     static let mainListCellIdentifier = "mainListCell"
 }
+
+struct Segue {
+    static let detailViewControllerSegue = "DetailViewControllerSegue"
+}

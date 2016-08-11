@@ -18,6 +18,7 @@ class MainListViewController: BaseViewController,UITableViewDataSource,UITableVi
     override func viewDidLoad() {
         super.viewDidLoad()
         fetchListData()
+        
         // Do any additional setup after loading the view.
     }
 
@@ -38,14 +39,12 @@ class MainListViewController: BaseViewController,UITableViewDataSource,UITableVi
     }
     
     // Mark: - UITableViewDataSource Methods
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 360.0
+    }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if let list = listArray {
-            return list.count
-        }
-        else {
-            return 0
-        }
+        return (listArray?.count ?? 0)
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
@@ -57,6 +56,9 @@ class MainListViewController: BaseViewController,UITableViewDataSource,UITableVi
             cell = MainListTableViewCell.init(style: .Default, reuseIdentifier: identifier)
         }
         
+        cell!.customizeCellWithListObject(listArray![indexPath.row])
+        
+        cell!.selectionStyle = .None
         
         return cell!
         
@@ -65,16 +67,21 @@ class MainListViewController: BaseViewController,UITableViewDataSource,UITableVi
     // Mark: - UITableViewDelegate Methods
 
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        
+        performSegueWithIdentifier(Segue.detailViewControllerSegue, sender: indexPath)
     }
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        if segue.identifier == Segue.detailViewControllerSegue {
+            let indexPath = sender as! NSIndexPath
+            let detailViewController = segue.destinationViewController as! DetailViewController
+            detailViewController.itemModel = listArray![indexPath.row]
+        }
     }
-    */
+    
 
 }

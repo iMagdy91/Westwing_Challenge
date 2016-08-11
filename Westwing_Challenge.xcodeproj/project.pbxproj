@@ -20,6 +20,7 @@
 		79063B3D1D5CEC7500874043 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79063B3C1D5CEC7500874043 /* NetworkConstants.swift */; };
 		79063B401D5CECA400874043 /* MainListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79063B3F1D5CECA400874043 /* MainListModel.swift */; };
 		79063B431D5CFD7900874043 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79063B421D5CFD7900874043 /* GlobalConstants.swift */; };
+		797C54CA1D5D136700D8EF1B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C54C91D5D136700D8EF1B /* DetailViewController.swift */; };
 		AFD25102ACAD898F16508E85 /* Pods_Westwing_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E12F48215992C564746CD8F /* Pods_Westwing_Challenge.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		79063B3C1D5CEC7500874043 /* NetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
 		79063B3F1D5CECA400874043 /* MainListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainListModel.swift; sourceTree = "<group>"; };
 		79063B421D5CFD7900874043 /* GlobalConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		797C54C91D5D136700D8EF1B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			children = (
 				79063B2F1D5CE93900874043 /* BaseViewController.swift */,
 				79063B311D5CE95100874043 /* MainListViewController.swift */,
+				797C54C91D5D136700D8EF1B /* DetailViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 				79063B321D5CE95100874043 /* MainListViewController.swift in Sources */,
 				79063B0D1D5CE87200874043 /* AppDelegate.swift in Sources */,
 				79063B351D5CEA0A00874043 /* MainListTableViewCell.swift in Sources */,
+				797C54CA1D5D136700D8EF1B /* DetailViewController.swift in Sources */,
 				79063B381D5CEBF000874043 /* MainListStore.swift in Sources */,
 				79063B301D5CE93900874043 /* BaseViewController.swift in Sources */,
 			);

@@ -35,6 +35,9 @@ class MainListModel: Mappable {
     
     required init?(_ map: Map) {
     }
+//    override init() {
+//        super.init()
+//    }
     
     func mapping(map: Map) {
         badgeURL <- map["badge_url"]
