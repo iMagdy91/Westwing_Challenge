@@ -15,3 +15,4 @@ struct TableViewCellID {
 struct Segue {
     static let detailViewControllerSegue = "DetailViewControllerSegue"
 }
+

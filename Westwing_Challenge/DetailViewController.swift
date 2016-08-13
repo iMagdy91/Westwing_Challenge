@@ -23,7 +23,7 @@ class DetailViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = itemModel!.name
+        title = itemModel?.name
         setViewData()
         // Do any additional setup after loading the view.
     }
@@ -40,9 +40,14 @@ class DetailViewController: BaseViewController {
         startDateLabel.text = itemModel?.startTimeFormatted
         descriptionTextView.text = itemModel?.itemDescription
         descriptionTextView.font = UIFont.systemFontOfSize(20.0)
-        
-        let imageURL = NSURL(string: itemModel!.navigationURL!)
-        itemImageView.kf_setImageWithURL(imageURL!)
+        if let model = itemModel {
+            if let url = model.navigationURL{
+                let imageURL = NSURL(string: url)
+                itemImageView.kf_setImageWithURL(imageURL!)
+
+            }
+
+        }
     }
     /*
     // MARK: - Navigation

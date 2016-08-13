@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-class MainListModel: Mappable {
+class MainListModel: NSObject, Mappable {
     
     var badgeURL: String?
     var bannerURL: String?
@@ -35,9 +35,9 @@ class MainListModel: Mappable {
     
     required init?(_ map: Map) {
     }
-//    override init() {
-//        super.init()
-//    }
+    override init() {
+        super.init()
+    }
     
     func mapping(map: Map) {
         badgeURL <- map["badge_url"]

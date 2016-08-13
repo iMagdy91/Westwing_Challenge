@@ -11,14 +11,35 @@ import XCTest
 
 class Westwing_ChallengeTests: XCTestCase {
     
+    var detailViewController: DetailViewController!
+    
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+        detailViewController = storyboard.instantiateViewControllerWithIdentifier("detailViewController") as! DetailViewController
+        
+        UIApplication.sharedApplication().keyWindow!.rootViewController = detailViewController
+
+        
+        detailViewController.itemModel = MainListModel()
+        
+        
+   
+        
     }
     
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
+    }
+    
+    func testDetailViewController() {
+        let model = detailViewController.itemModel
+        model?.name = "Test Name"
+        detailViewController.setViewData()
+        XCTAssert(detailViewController.nameLabel.text == model?.name)
     }
     
     func testExample() {
